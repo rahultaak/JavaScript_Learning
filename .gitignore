@@ -1,0 +1,25 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Env files
+.env
+
+# Ignore anything in parent directories accidentally
+**/node_modules/
+
+# Keep source files
+!*.js
+!**/*.js

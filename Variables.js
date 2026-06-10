@@ -1,0 +1,14 @@
+const accountID = 28;
+let name = "Rahul";
+var city = "Delhi";
+state = "Maharashtra";
+let Village;
+//accountID = 101;
+name = "mukesh";
+city = "Bagpat";
+state = "Uttar Pradesh";
+// console.log(accountID);
+// console.log(name);
+// console.log(city);
+// console.log(state);
+console.table({accountID , name, city, state ,Village});
